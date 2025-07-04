@@ -14,7 +14,7 @@ int main()
         {
             for (int k = 0; k < 2; k++)
             {
-                crr[i][j]=crr[i][j]=(arr[i][k]*brr[k][j]);
+                crr[i][j]=crr[i][j]+(arr[i][k]*brr[k][j]);
             }
             
         }
